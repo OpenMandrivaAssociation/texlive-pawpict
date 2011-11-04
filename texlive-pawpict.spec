@@ -1,3 +1,9 @@
+# revision 21629
+# category Package
+# catalog-ctan /macros/latex/contrib/pawpict
+# catalog-date 2007-01-12 20:52:49 +0100
+# catalog-license gpl
+# catalog-version 1.0
 Name:		texlive-pawpict
 Version:	1.0
 Release:	1
@@ -42,6 +48,7 @@ system to benefit from this package.
 #- source
 %doc %{_texmfdistdir}/source/latex/pawpict/pawpict.dtx
 %doc %{_texmfdistdir}/source/latex/pawpict/pawpict.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -52,3 +59,5 @@ system to benefit from this package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}

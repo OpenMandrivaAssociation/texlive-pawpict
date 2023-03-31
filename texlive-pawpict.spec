@@ -1,6 +1,6 @@
 Name:		texlive-pawpict
 Version:	21629
-Release:	1
+Release:	2
 Summary:	Using graphics from PAW
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pawpict

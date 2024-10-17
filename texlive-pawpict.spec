@@ -3,7 +3,7 @@ Version:	21629
 Release:	2
 Summary:	Using graphics from PAW
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pawpict
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/pawpict
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pawpict.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pawpict.doc.r%{version}.tar.xz
